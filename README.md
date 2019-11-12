@@ -25,3 +25,7 @@ docker push mathiskretz/notification-ui:latest
 ## Requirements to run
 
 1. Assumes that there exists an api service named `notification-api`
+
+## Deployment
+
+Use [these YAML files](https://github.com/bespinian/notification-k8s).
