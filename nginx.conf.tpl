@@ -15,7 +15,7 @@ http {
             try_files $uri /index.html;
 
             location /api/ {
-                proxy_pass $API_URL;
+                proxy_pass $API_URL/;
                 proxy_http_version 1.1;
             }
         }
